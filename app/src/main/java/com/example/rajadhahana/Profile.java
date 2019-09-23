@@ -119,6 +119,8 @@ public class Profile extends AppCompatActivity {
                     dbref =FirebaseDatabase.getInstance().getReference().child("User").child(n);
                     dbref.removeValue();
                     Toast.makeText(getApplicationContext(),"Data deleted successfully",Toast.LENGTH_SHORT).show();
+                    Intent intent10=new Intent(Profile.this,login.class);
+                    startActivity(intent10);
                 }
                 else
                     Toast.makeText(getApplicationContext(),"No sourse deleted",Toast.LENGTH_SHORT).show();

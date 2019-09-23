@@ -774,7 +774,6 @@ id beginning
 id blocking
 id bottom
 id btnUpdate
-id btncArt
 id btndelete
 id btnorder
 id btnorder3
@@ -783,11 +782,15 @@ id btnpack2
 id btnsave
 id btnupdate
 id button
-id button2
+id button11
+id button12
+id button13
 id button3
 id button4
 id button5
-id button8
+id button6
+id button7
+id button9
 id buttonList
 id buttonPanel
 id cancel_action

@@ -16,7 +16,7 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        ba=findViewById(R.id.button2);
+        ba=findViewById(R.id.button6);
         Intent intent2 = getIntent();
         n = intent2.getStringExtra("name");
         ba.setOnClickListener(new View.OnClickListener() {
@@ -29,7 +29,7 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        bb=findViewById(R.id.button8);
+        bb=findViewById(R.id.button7);
         bb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,7 +39,7 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        b3 = findViewById(R.id.btncArt);
+        b3 = findViewById(R.id.button9);
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

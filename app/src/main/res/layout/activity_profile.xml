@@ -11,17 +11,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#272626"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="SANUKA JUICE BAR"
+            android:text="USER PROFILE"
             android:textAlignment="center"
 
             android:textSize="36sp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView12"
@@ -31,7 +44,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:text="                   USER PROFILE"
+            android:text="                        DETAILS"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -123,8 +136,9 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:ems="10"
+            android:background="#272626"
 
+            android:ems="10"
             android:onClick="changepw"
             android:text="Change password"
             android:textSize="18sp" />
@@ -137,9 +151,9 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
+            android:background="#272626"
             android:text="UPDATE PROFILE"
-            android:textSize="18sp"
-            />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button5"
@@ -149,6 +163,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
+            android:background="#272626"
             android:onClick="Delete"
             android:text="DELETE PROFILE"
             android:textSize="18sp" />
