@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "48514096711",
+    "firebase_url": "https://rajadhahana.firebaseio.com",
+    "project_id": "rajadhahana",
+    "storage_bucket": "rajadhahana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48514096711:android:6ed59e44a9aa31671f9b62",
+        "android_client_info": {
+          "package_name": "com.example.rajadhahana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48514096711-fia7uf7r63d4cciav88v1fdrr94n45nn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rajadhahana",
+            "certificate_hash": "2259c0e7e089b31f1c8990302f8ef0a74bac9a23"
+          }
+        },
+        {
+          "client_id": "48514096711-ap6l2vivpassfc5beb39l03huuhi9j0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiz3CDnLb99LDjRytoRZ6Qu1N6A7dPH6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48514096711-ap6l2vivpassfc5beb39l03huuhi9j0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
