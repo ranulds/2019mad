@@ -157,6 +157,7 @@ public class Resevation extends AppCompatActivity {
                     String s3 = ((RadioButton )findViewById(radioGroup1.getCheckedRadioButtonId())).getText().toString();
                     Integer s4 = Integer.parseInt(txtres3.getText().toString());
 
+                        // push test
                     try {
                         d1= format.parse(CurrentDate);
                         d2=format.parse(s1);
